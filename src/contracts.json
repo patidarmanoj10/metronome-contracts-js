@@ -63,5 +63,47 @@
       }
     },
     "version": "35a6cd3"
+  },
+  "deveth": {
+    "birthblock": 0,
+    "contracts": {
+      "Auctions": {
+        "address": "0x0377f6c3f2fcf247f88f613e68b1af90c780d91d"
+      },
+      "AutonomousConverter": {
+        "address": "0x5f1be3ab8fa86fdd970dd6be35155691933765c3"
+      },
+      "METToken": {
+        "address": "0x412bead4f75ecd285e09da74552d5dac5098d17f"
+      },
+      "TokenPorter": {
+        "address": "0xc5e4f80954a6182d64ebadfd94178fed5a5dc24c"
+      },
+      "Validator": {
+        "address": "0x72b0cd397ee07466f7d04b63c0f2bbbae0e037da"
+      }
+    },
+    "version": "deveth"
+  },
+  "devetc": {
+    "birthblock": 0,
+    "contracts": {
+      "Auctions": {
+        "address": "0x02ff7df6c76dd395faf86668cce5936a1a769b75"
+      },
+      "AutonomousConverter": {
+        "address": "0xe2bd1d3d52e3190bff19883dfd2b12e31027e42f"
+      },
+      "METToken": {
+        "address": "0x5da10980a4fc376d5296b2a2f2fb36d8a520c31b"
+      },
+      "TokenPorter": {
+        "address": "0x19fd547127993c3984cd3bacaa475326b49e3543"
+      },
+      "Validator": {
+        "address": "0x70656c9bc20b3e603e6638b36c92b117f4120974"
+      }
+    },
+    "version": "devetc"
   }
 }
