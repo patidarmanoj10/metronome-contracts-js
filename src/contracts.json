@@ -24,22 +24,22 @@
     "birthblock": 3757156,
     "contracts": {
       "Auctions": {
-        "address": "0x0d068042a97de5aff1f16857b1d74fdb2124c522"
+        "address": "0x009d3a9b4f2a289d0409ace2eae38cf93c29e0c6"
       },
       "AutonomousConverter": {
-        "address": "0xd7b1caa37714f6f509af65acff1bdbf97176b5eb"
+        "address": "0x9660861ca2afd47bd957be0d69ba35c594cf632b"
       },
       "METToken": {
-        "address": "0x544cacedd33baaac80ea02090890f5ebc4c8502a"
+        "address": "0xb219d0c1db1f4138be5bdc9ebb310a2eea8a1c05"
       },
       "TokenPorter": {
-        "address": "0x07ff9cac0feb638d68b7afd9d1ba4289ee1cd51b"
+        "address": "0x7297b2cd5781f67d0d22b997e0d5de9d2a49c520"
       },
       "Validator": {
-        "address": "0xeb20d9471ed4e0b50f3bc6695276326c5f569740"
+        "address": "0x01df41ab6dbb0746bb7cde21a2ac10ab6ce62474"
       }
     },
-    "version": "82d241f"
+    "version": "f51493a"
   },
   "ropsten": {
     "birthblock": 3399250,
