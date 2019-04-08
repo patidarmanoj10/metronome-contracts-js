@@ -24,19 +24,19 @@
     "birthblock": 3757156,
     "contracts": {
       "Auctions": {
-        "address": "0xf5c8a184077b2aa7622c65538c86fbaba34c9f9a"
+        "address": "0xd592d337439856bff61bf3cbbe8489a0b9ad8098"
       },
       "AutonomousConverter": {
-        "address": "0xa31b50a47e2165ad35dc1d702342cea549d66129"
+        "address": "0x663d5aad54179ea505e08fe1cb53cf0b1b9815ab"
       },
       "METToken": {
-        "address": "0xe3332c2ff5be1c1f2acdc2917b35615096720b46"
+        "address": "0x7afea9106b49fc439dc78fad3b23773b98673b2f"
       },
       "TokenPorter": {
-        "address": "0x7277326844082f3efc9f5723561cfcd43a6f00c5"
+        "address": "0xeabe6b91119dc13aeb29b29d07f56416bdb01983"
       },
       "Validator": {
-        "address": "0x0493c2cb793f69a1c850b5107378fc4446adec32"
+        "address": "0xf9fd58290cf86d07d5382070b53f0227027999f2"
       }
     },
     "version": "f51493a"
