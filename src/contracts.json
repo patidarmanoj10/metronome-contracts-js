@@ -45,22 +45,25 @@
     "birthblock": 3399250,
     "contracts": {
       "Auctions": {
-        "address": "0x812ce313d986022ce551202c1652ec044817e3d8"
+        "address": "0x767182C6ef62398993099e5542Ab43c2456A8abA"
       },
       "AutonomousConverter": {
-        "address": "0x66e0765452e50160586aabc057dad5e6d2f9763f"
+        "address": "0x638E84db864AA345266e1AEE13873b860aFe82e7"
       },
       "METToken": {
-        "address": "0x6ee32149bb489eac0593d119acf5ad6f36a84c88"
+        "address": "0xF3e9a687Fdf24112745D4d7dEe150BA87A07ecc3"
       },
       "TokenPorter": {
-        "address": "0x16dcb5ee4c8d73422a2f6d0cd9cd73818fce865c"
+        "actualVersion": "17a8800",
+        "address": "0xB95079369c8e57e76f66F65Cf4167b70a2df0aeD",
+        "version": "368d83c"
       },
       "Validator": {
-        "address": "0x254ed48de6861bea3fea91e5e64e11ece05ede2b"
+        "address": "0x73924d3c6dbAbf47Fffa2D9f9303Dc2049Aec44a",
+        "version": "368d83c"
       }
     },
-    "version": "814eccc"
+    "version": "35a6cd3"
   },
   "deveth": {
     "birthblock": 0,
