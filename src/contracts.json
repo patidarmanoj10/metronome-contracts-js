@@ -24,22 +24,22 @@
     "birthblock": 3757156,
     "contracts": {
       "Auctions": {
-        "address": "0xd592d337439856bff61bf3cbbe8489a0b9ad8098"
+        "address": "0xd270b29510C9e3F20ceCadfA048dE1cd8F701Ffe"
       },
       "AutonomousConverter": {
-        "address": "0x663d5aad54179ea505e08fe1cb53cf0b1b9815ab"
+        "address": "0xe1555956743c44A4A11467995d2486b87838Ed24"
       },
       "METToken": {
-        "address": "0x7afea9106b49fc439dc78fad3b23773b98673b2f"
+        "address": "0x6fDF2590bFEF9E850a69f1279eC50c1456275Ec7"
       },
       "TokenPorter": {
-        "address": "0xeabe6b91119dc13aeb29b29d07f56416bdb01983"
+        "address": "0xCD4755Db144850025623572871Fc5D40E641FEd4"
       },
       "Validator": {
-        "address": "0xf9fd58290cf86d07d5382070b53f0227027999f2"
+        "address": "0x43b55499006596a2c87505553E7Cc9B0971E152c"
       }
     },
-    "version": "f51493a"
+    "version": "4af63f2"
   },
   "ropsten": {
     "birthblock": 3399250,
@@ -54,10 +54,12 @@
         "address": "0xcd0c64b7584ba85416fff01ce57de7d51fb96990"
       },
       "TokenPorter": {
-        "address": "0x8900bea78c7d1b8b61228e5e69e02e2ce8583fca"
+        "address": "0xc186171122032FA151B53062316951c7646678F7",
+        "version": "24baa73"
       },
       "Validator": {
-        "address": "0x5a2c6d55f698bc23ea77938d39df5f85e80a6f49"
+        "address": "0xd51C065E8a1CcCc67f2CdCf80ad6977E0727A377",
+        "version": "24baa73"
       }
     },
     "version": "fc0b57c"
