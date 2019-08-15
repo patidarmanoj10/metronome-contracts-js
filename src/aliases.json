@@ -7,5 +7,6 @@
   "main": "mainnet",
   "mainnet": "mainnet",
   "morden": "morden",
-  "ropsten": "ropsten"
+  "ropsten": "ropsten",
+  "qtumTestnet": "qtumTestnet"
 }

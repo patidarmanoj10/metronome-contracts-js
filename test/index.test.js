@@ -2,10 +2,12 @@
 
 const Web3 = require('web3')
 const web3 = new Web3('http://localhost:8545')
+const qtumrpc = 'http://qtum:test@ec2-54-172-219-152.compute-1.amazonaws.com:3889'
 
 const MetronomeContracts = require('../src')
 
 const ROPSTEN = 'ropsten'
+const QTUM = 'qtumTestnet'
 
 const contracts = {
   mainnet: {
@@ -31,6 +33,26 @@ const contracts = {
     METToken: {
       address: '0xF3e9a687Fdf24112745D4d7dEe150BA87A07ecc3'
     }
+  },
+  qtumTestnet: {
+    Auctions: {
+      address: 'b3f2d768fb1f2e341f5fe72f1b207fada4e51fe3'
+    },
+    AutonomousConverter: {
+      address: 'd27ed9a738d166a68d499b355995bebfbd7b3955'
+    },
+    METToken: {
+      address: '16d74dac67ad7af791427a00e5c687c204b733ab'
+    },
+    Proposals: {
+      address: 'a6ca7ea28a78572ca06c8376555d8896f37ec6f8'
+    },
+    TokenPorter: {
+      address: '4aa625d067457b6e5df52275048e70e68ea1bff7'
+    },
+    Validator: {
+      address: '39e910a1439cc806a3dcb5f253d8fa28a5b0c598'
+    }
   }
 }
 
@@ -45,7 +67,7 @@ test('initializes contracts with default chain', function () {
     .toBeDefined()
 })
 
-test('initializes contracts for specifi', function () {
+test('initializes contracts for specific', function () {
   const metronome = new MetronomeContracts(web3, ROPSTEN)
 
   expect(metronome.METToken)
@@ -56,9 +78,29 @@ test('initializes contracts for specifi', function () {
     .toBeDefined()
 })
 
+test('initializes contracts for qtum', function () {
+  const metronome = new MetronomeContracts(web3, QTUM, qtumrpc)
+
+  expect(metronome.METToken)
+    .toBeDefined()
+  expect(metronome.Auctions)
+    .toBeDefined()
+  expect(metronome.AutonomousConverter)
+    .toBeDefined()
+})
+
+test('initializes contracts and get the addresses on qtum', function () {
+  const metronome = new MetronomeContracts(web3, QTUM, qtumrpc)
+  expect(metronome.METToken.info.address.toLowerCase())
+    .toBe(contracts[QTUM].METToken.address.toLowerCase())
+  expect(metronome.Auctions.info.address.toLowerCase())
+    .toBe(contracts[QTUM].Auctions.address.toLowerCase())
+  expect(metronome.AutonomousConverter.info.address.toLowerCase())
+    .toBe(contracts[QTUM].AutonomousConverter.address.toLowerCase())
+})
+
 test('initializes contracts and get the addresses on Ropsten', function () {
   const metronome = new MetronomeContracts(web3, ROPSTEN)
-
   expect(metronome.METToken.options.address.toLowerCase())
     .toBe(contracts[ROPSTEN].METToken.address.toLowerCase())
   expect(metronome.Auctions.options.address.toLowerCase())

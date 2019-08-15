@@ -103,5 +103,29 @@
       }
     },
     "version": "35a6cd3"
+  },
+  "qtumTestnet": {
+    "birthblock": 8285377,
+    "version": "qtumv1",
+    "contracts": {
+      "Auctions": {
+        "address": "b3f2d768fb1f2e341f5fe72f1b207fada4e51fe3"
+      },
+      "AutonomousConverter": {
+        "address": "d27ed9a738d166a68d499b355995bebfbd7b3955"
+      },
+      "METToken": {
+        "address": "16d74dac67ad7af791427a00e5c687c204b733ab"
+      },
+      "Proposals": {
+        "address": "a6ca7ea28a78572ca06c8376555d8896f37ec6f8"
+      },
+      "TokenPorter": {
+        "address": "4aa625d067457b6e5df52275048e70e68ea1bff7"
+      },
+      "Validator": {
+        "address": "39e910a1439cc806a3dcb5f253d8fa28a5b0c598"
+      }
+    }
   }
 }
