@@ -105,7 +105,7 @@
     "version": "35a6cd3"
   },
   "qtumTestnet": {
-    "birthblock": 8285377,
+    "birthblock": 222408,
     "version": "qtumv1",
     "contracts": {
       "Auctions": {

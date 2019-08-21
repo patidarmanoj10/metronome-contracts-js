@@ -53,6 +53,7 @@ class MetronomeContracts {
    *
    * @param {Web3} web3 The Web3 instance to instantiate the contracts.
    * @param {string} [chain='mainnet'] The target chain name or ID.
+   * @param {string} qtumrpc qtum rpc url
    */
   constructor (web3, chain = 'mainnet', qtumrpc) {
     if (!web3 || !web3.eth) {
